@@ -4,15 +4,15 @@ import FirstComponent from './components/learning-components/FirstComponent'
 import SecondComponent from './components/learning-components/SecondComponent';
 import ThirdComponent from './components/learning-components/ThirdComponent';
 import Counter from './components/counter/Counter';
+import Todo from './components/todo/TodoApp';
 
 import { Component } from 'react';
 
 function App() {
   return (
     <div className="App">
-      <Counter by  ={1}></Counter>
-      <Counter by ={5}></Counter>
-      <Counter by ={10}></Counter>
+      {/*<Counter></Counter>*/}
+      <Todo></Todo>      
     </div>
 
   );
